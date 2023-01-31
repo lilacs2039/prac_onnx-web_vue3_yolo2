@@ -14,4 +14,5 @@ export default defineConfig({
   build: {
     outDir: './docs'
   },
+  base: "/prac_onnx-web_vue3_yolo2/",
 });
