@@ -6,7 +6,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/",
+      path: "/Home",
       name: "home",
       component: HomeView,
     },
@@ -19,7 +19,7 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
     {
-      path: "/yolo",
+      path: "/",
       name: "yolo",
       // component: () => import("../views/Yolo.vue"),
       component: YoloView,
